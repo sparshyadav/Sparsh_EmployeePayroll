@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll</title>
+    <link rel="stylesheet" href="../Styles/HomePage.css">
+    <script src="../Scripts/HomePage.js"></script>
+</head>
+
+<body>
+    <div class="emp-home-outer-div">
+        <!-- Header Section -->
+        <nav class="emp-home-header-div">
+            <div class="emp-home-header-inner-div">
+                <div class="emp-home-header-icon">
+                    <img class="emp-home-header-logo" src="../Assets/empPayrollLogo.jpg" alt="Logo Not Found">
+                    <div class="emp-home-header-text">
+                        <div class="emp-home-header-title" id="emp">EMPLOYEE</div>
+                        <div class="emp-home-header-title" id="pay">PAYROLL</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--  Main  -->
+        <main class="emp-home-main">
+            <!-- Heading -->
+            <div class="emp-home-main-heading">
+                <div class="emp-home-main-inner">
+                    <div class="emp-home-main-heading-left">
+                        <p>Employee Details</p>
+                    </div>
+                    <div class="emp-home-main-heading-right">
+                        <div class="emp-home-main-search">
+                            <img src="../Assets/searchIcon.png" alt="Search Icon">
+                        </div>
+                        <a href="./EmployeePayrollForm.html">
+                            <div class="emp-home-main-add">
+                                <img src="../Assets/plusIcon.png" alt="Plus Icon">
+                                <p>Add User</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <main class="emp-home-main-div">
+                <div class="emp-home-reg-heading">
+                    <div class="reg-name center">Name</div>
+                    <div class="reg-gender center">Gender</div>
+                    <div class="reg-dept center">Department</div>
+                    <div class="reg-salary center">Salary</div>
+                    <div class="reg-start-date center">Start Date</div>
+                    <div class="reg-actions center">Actions</div>
+                </div>
+                <div class="emp-home-reg-body">
+                    <div class="emp-home-emp1">
+                        <div class="reg-emp-name reg-name center">
+                            <img src="../Assets/user4.jpg" alt="Employee 1">
+                            <p>Sparsh Yadav</p>
+                        </div>
+                        <div class="reg-emp-gender reg-gender center">Male</div>
+                        <div class="reg-emp-dept reg-dept center">
+                            <div class="dept">Sales</div>
+                            <div class="dept">HR</div>
+                            <div class="dept">Finance</div>
+                        </div>
+                        <div class="reg-emp-salary reg-salary center">100000</div>
+                        <div class="reg-emp-start-date reg-start-date center">12 January 2025</div>
+                        <div class="reg-emp-actions reg-actions center">
+                            <img src="../Assets/deleteIcon.png" alt="Delete Icon" class="action-icon delete">
+                            <img src="../Assets/editIcon.webp" alt="Edit Icon" class="action-icon edit">
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </main>
+    </div>
+</body>
+
+</html>
