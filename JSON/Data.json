@@ -1,73 +1,55 @@
 {
-    "empList": [
-        {
-            "id": "1",
-            "name": "Sparsh Yadav",
-            "profileImage": "../Assets/user4.jpg",
-            "gender": "Male",
-            "departments": [
-                "Sales",
-                "HR",
-                "Finance"
-            ],
-            "salary": "100000",
-            "startDate": {
-                "day": 12,
-                "month": "January",
-                "year": 2025
-            }
-        },
-        {
-            "id": "f5c2",
-            "name": "Sparsh Yadav",
-            "profileImage": "../Assets/user1.jpg",
-            "gender": "Male",
-            "departments": [
-                "HR",
-                "Sales",
-                "Finance",
-                "Engineering"
-            ],
-            "salary": "50000",
-            "startDate": {
-                "day": "1",
-                "month": "January",
-                "year": "2023"
-            },
-            "notes": ""
-        },
-        {
-            "id": "a5b8",
-            "name": "raghav khattar",
-            "profileImage": "../Assets/user1.jpg",
-            "gender": "Male",
-            "departments": [
-                "HR",
-                "Finance"
-            ],
-            "salary": "50000",
-            "startDate": {
-                "day": "1",
-                "month": "February",
-                "year": "2024"
-            },
-            "notes": ""
-        },
-        {
-            "id": "39ff",
-            "name": "Sandeep Reddy Vanga",
-            "profileImage": "../Assets/user2.jpg",
-            "gender": "Male",
-            "departments": [
-                "HR"
-            ],
-            "salary": "30000",
-            "startDate": {
-                "day": "2",
-                "month": "February",
-                "year": "2024"
-            },
-            "notes": ""
-        }
-    ]
+  "empList": [
+    {
+      "name": "Sparsh Yadav",
+      "profileImage": "../Assets/user4.jpg",
+      "gender": "Male",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "50000",
+      "startDate": {
+        "day": "",
+        "month": "January",
+        "year": ""
+      },
+      "notes": "undefined",
+      "id": "1"
+    },
+    {
+      "id": "a5b8",
+      "name": "raghav khattar",
+      "profileImage": "../Assets/user1.jpg",
+      "gender": "Male",
+      "departments": [
+        "HR",
+        "Finance"
+      ],
+      "salary": "50000",
+      "startDate": {
+        "day": "1",
+        "month": "February",
+        "year": "2024"
+      },
+      "notes": ""
+    },
+    {
+      "id": "39ff",
+      "name": "Sandeep Reddy Vanga",
+      "profileImage": "../Assets/user2.jpg",
+      "gender": "Male",
+      "departments": [
+        "HR"
+      ],
+      "salary": "30000",
+      "startDate": {
+        "day": "2",
+        "month": "February",
+        "year": "2024"
+      },
+      "notes": ""
+    }
+  ]
 }

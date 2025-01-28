@@ -108,7 +108,7 @@
     margin-right: 10px;
 }
 
-.answer{
+.answer {
     width: 100%;
 }
 
@@ -154,7 +154,7 @@ textarea {
     justify-content: space-between;
 }
 
-.button{
+.button {
     background-color: #E2E2E2;
     color: black;
     border: solid 1px #969696;
@@ -170,15 +170,15 @@ textarea {
     opacity: 0.8;
 }
 
-.question{
+.question {
     width: 150px;
 }
 
-.answer img{
+.answer img {
     border-radius: 50%;
 }
 
-.date-drop-down{
+.date-drop-down {
     display: flex;
     justify-content: space-around;
 }
