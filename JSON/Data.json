@@ -50,6 +50,22 @@
         "year": "2024"
       },
       "notes": ""
+    },
+    {
+      "id": "cffc",
+      "name": "sdfsaf",
+      "profileImage": "../Assets/user4.jpg",
+      "gender": "Female",
+      "departments": [
+        "Sales"
+      ],
+      "salary": "30000",
+      "startDate": {
+        "day": "1",
+        "month": "January",
+        "year": "2023"
+      },
+      "notes": ""
     }
   ]
 }
