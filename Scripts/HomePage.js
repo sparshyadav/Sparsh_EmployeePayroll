@@ -77,7 +77,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const employeeId = event.target.getAttribute("data-id");
 
         fetch(`http://localhost:3000/empList/${employeeId}`)
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Failed to fetch employee data for editing");
+                }
+                return response.json();
+            })
             .then(employee => {
                 localStorage.setItem("employeeToEdit", JSON.stringify(employee));
 
@@ -90,4 +95,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     displayEmployees();
 });
-
