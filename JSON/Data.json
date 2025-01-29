@@ -36,8 +36,7 @@
       "notes": ""
     },
     {
-      "id": "39ff",
-      "name": "Sandeep Reddy Vanga",
+      "name": "Sandeep Reddy ",
       "profileImage": "../Assets/user2.jpg",
       "gender": "Male",
       "departments": [
@@ -49,21 +48,41 @@
         "month": "February",
         "year": "2024"
       },
+      "notes": "",
+      "id": "39ff"
+    },
+    {
+      "id": "9ad5",
+      "name": "Raghav Khattar",
+      "profileImage": "../Assets/user2.jpg",
+      "gender": "Male",
+      "departments": [
+        "HR",
+        "Finance",
+        "Engineering"
+      ],
+      "salary": "50000",
+      "startDate": {
+        "day": "2",
+        "month": "February",
+        "year": "2024"
+      },
       "notes": ""
     },
     {
-      "id": "cffc",
-      "name": "sdfsaf",
+      "id": "4696",
+      "name": "Rakshit Chauhan ",
       "profileImage": "../Assets/user4.jpg",
       "gender": "Female",
       "departments": [
-        "Sales"
+        "Sales",
+        "Others"
       ],
-      "salary": "30000",
+      "salary": "70000",
       "startDate": {
-        "day": "1",
-        "month": "January",
-        "year": "2023"
+        "day": "2",
+        "month": "February",
+        "year": "2024"
       },
       "notes": ""
     }
