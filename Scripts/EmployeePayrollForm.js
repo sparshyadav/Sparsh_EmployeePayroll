@@ -119,3 +119,4 @@ cancelButton.addEventListener("click", function () {
     localStorage.removeItem("employeeToEdit");
     window.history.back();
 });
+
